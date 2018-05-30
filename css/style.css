@@ -1,0 +1,173 @@
+header {
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+  background:#F1C0EC;
+  margin-bottom:20px;
+}
+ 
+.wrapper {
+  width:90%; /* Establecemos que el ancho sera del 90% */
+  max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+  margin:auto; /* Centramos los elementos */
+  overflow:hidden; /* Eliminamos errores de float */
+}
+ 
+header .logo {
+  color:#f2f2f2;
+  font-size:50px;
+  line-height:200px;
+  float:left;
+}
+ 
+header nav {
+  float:right;
+  position: relative;
+  line-height:200px;
+  top:80px;
+  right:230px;
+}
+ 
+header nav a {
+  display:inline-block;
+  color:#8E44AD;
+  text-decoration:none;
+  padding:10px 50px;
+  line-height:normal;
+  font-size:20px;
+  font-weight:bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+  background:#f56f3a;
+  border-radius:50px;
+
+}
+
+
+/* buscar */
+  
+    
+    .form-wrapper {
+        width: 800px;
+        padding: 1px;
+        margin: 15px auto 200px auto;
+        position: relative;
+        top: -180px;
+        right: -20px;
+        height: 10px;
+ 
+ 
+    }
+    
+    .form-wrapper input {
+        width: 685px;
+        height: 50px;
+        padding: 10px 5px;
+        float: left;    
+        font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .form-wrapper button {
+    overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 50px;
+        width: 110px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: #F06292;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form-wrapper button:hover{   
+        background: #e54040;
+    } 
+      
+    .form-wrapper button:active,
+    .form-wrapper button:focus{   
+        background:  #F06292;    
+    }
+    
+    .form-wrapper button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #d83c3c transparent;
+        top: 12px;
+        left: -6px;
+    }
+    
+    .form-wrapper button:hover:before{
+        border-right-color: #e54040;
+    }
+    
+    .form-wrapper button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+
+
+
+
+
+.carousel-container{
+}
+ul{
+        padding: 130px 5px;
+  list-style: none;
+
+}
+li{
+  margin: 0;
+  float: left;
+}
+.card{
+  width: 318px;
+    margin-right:300px;
+        position: relative;
+    top: -10px;
+        padding: 5px;
+
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+  }
+}
+.owl-wrapper{
+}
+.owl-item{
+  transition: all 250ms ease-out;
+  transform: translate3d(0px, 0px, 0px) scale(1);
+  &.active{
+    transform: translate3d(0px, 0px, -10px) scale(1) rotateY(75deg);
+    + .active{
+     transform: translate3d(0px, 0px, 10px) scale(1); 
+      + .active{
+       transform: translate3d(0px, 0px, 20px) scale(1); 
+        + .active{
+         transform: translate3d(0px, 0px, 10px) scale(1); 
+          + .active{
+           transform: translate3d(0px, 0px, -10px) scale(1) rotateY(-75deg); 
+          }
+        }
+      }
+    }
+  }
+}
