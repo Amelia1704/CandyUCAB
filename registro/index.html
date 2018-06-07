@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesion</title>
+  
+  
+      <link rel="icon" href="imagenes/favicon.ico">
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <header>
+  <div class="logo"><a href="../inicio/index.html"><img src="imagenes/logo.png" width="180" hspace="0" alt="Logotipo"/></a></div>
+
+<form class="form-wrapper cf">
+    <input type="text" placeholder="Busca tus caramelos favoritos" required>
+    <button type="submit">buscar</button>
+</form>
+
+ <nav>
+  <a href="#"><img src="imagenes/servicios.png" width="70" hspace="10" vspace="-100" alt="Logotipo"/>Sevicios</a>
+  <a href="#"><img src="imagenes/contacto.png" width="70" hspace="10" vspace="-100" alt="Logotipo"/>Contacto</a>
+  <a href="../carrito/index.html"><img src="imagenes/carrito.png" width="70" hspace="10" vspace="-100" alt="Logotipo"/>Mi carrito</a>
+  <a href="../registro/index.html"><img src="imagenes/user.png" width="70" hspace="18" vspace="-100" alt="Logotipo"/>Mi cuenta</a>
+ </nav>  
+
+<body>
+
+   <!-- Formularios -->
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+            <li class="tab tab-segunda active"><a href="#iniciar-sesion">¡Tengo una cuenta!</a></li>
+      
+        </ul>
+
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h1>Iniciar Sesión</h1>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+                    <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                    <input type="submit" class="button button-block" value="Iniciar Sesión">
+                </form>
+            </div>
+                    </div>    
+
+            <br></br>
+
+            <!-- Registrarse -->
+            <div id="registrarse">
+                <h1>Registrarse Persona Natural</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                RIF: J1234567 <span class="req">*</span>
+                            </label>
+<input type="text" name="rif" pattern="^([VEJPG]{1})([0-9]{7,9})$" />
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label>
+                                Cedula: V1234567 <span class="req">*</span>
+                            </label>
+                            <input type="text" name="cedula" pattern="^([VEJPG]{1})([0-9]{7,9})$" />
+                        </div>
+                  <br></br>
+                    <div class="contenedor-input">
+                        <label>
+                            Nombre <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                            <label>
+                                Apellido <span class="req">*</span>
+                            </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Email <span class="req">*</span>
+                        </label>
+                        <input type="email" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Teléfono <span class="req">*</span>
+                        </label>
+                        <input type="tel" required>
+                    </div>
+                  
+
+                    <div class="contenedor-input">
+                        <label>
+                            Dirección Hab. <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+                  
+
+                    <input type="submit" class="button button-block" value="Registrarse">
+                   </div>
+                </form>
+            </div>
+          
+    
+            <br></br>      
+<!-- Registrarse2 -->
+            <div id="registrarse2">
+                <h1>Registrarse Persona Jurídica</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                RIF: J1234567 <span class="req">*</span>
+                            </label>
+                           <input type="text" name="cedula" pattern="^([VEJPG]{1})([0-9]{7,9})$" />
+                        </div>     
+                                   <div class="contenedor-input">
+                            <label>
+                                Denominación Comercial <span class="req">*</span>
+                            </label>
+                           <input type="text"  required >
+                        </div>              
+<div class="contenedor-input">
+                            <label>
+                                Razón Social<span class="req">*</span>
+                            </label>
+                           <input type="text" required >
+                        </div>                                
+ <div class="contenedor-input">
+                            <label>
+                                Pagina Web (url)<span class="req">*</span>
+                            </label>
+                            <input type="url" required >
+                        </div>   
+<div class="contenedor-input">
+                            <label>
+                                Capital Disponible <span class="req">*</span>
+                            </label>
+                            <input type="text" required >
+                        </div>  
+ <div class="contenedor-input">
+                            <label>
+                                Persona de contacto: Nombre <span class="req">*</span>
+                            </label>
+                            <input type="text" required >
+                        </div> 
+ <div class="contenedor-input">
+                            <label>
+                                Persona de contacto: Apellido <span class="req">*</span>
+                            </label>
+                            <input type="text" required >
+                        </div>     
+<div class="contenedor-input">
+                            <label>
+                                Persona de contacto: Teléfono <span class="req">*</span>
+                            </label>
+                            <input type="tel" required >
+                        </div>  
+                             <input type="text" required >
+                        </div>  
+ <div class="contenedor-input">
+                            <label>
+                                Persona de contacto 2: Nombre 
+                            </label>
+                            <input type="text" required >
+                        </div> 
+ <div class="contenedor-input">
+                            <label>
+                                Persona de contacto 2: Apellido 
+                            </label>
+                            <input type="text" required >
+                        </div>     
+<div class="contenedor-input">
+                            <label>
+                                Persona de contacto 2: Teléfono 
+                            </label>
+                            <input type="tel" required >
+                   <br></br> 
+<div class="contenedor-input">
+                        <label>
+                            Dirección fiscal <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>  
+ <div class="contenedor-input">
+                        <label>
+                           Dirección fiscal Principal <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div> 
+
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+                    
+                    <input type="submit" class="button button-block" value="Registrarse">
+                </form>
+            </div>          
+                      <div id="registrarse3">
+                <h1>Registro de empleado</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                RIF: J1234567 <span class="req">*</span>
+                            </label>
+<input type="text" name="rif" pattern="^([VEJPG]{1})([0-9]{7,9})$" />
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label>
+                                Cedula: V1234567 <span class="req">*</span>
+                            </label>
+                            <input type="text" name="cedula" pattern="^([VEJPG]{1})([0-9]{7,9})$" />
+                        </div>
+                  <br></br>
+                    <div class="contenedor-input">
+                        <label>
+                            Nombre <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                            <label>
+                                Apellido <span class="req">*</span>
+                            </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Email <span class="req">*</span>
+                        </label>
+                        <input type="email" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Teléfono <span class="req">*</span>
+                        </label>
+                        <input type="tel" required>
+                    </div>
+                  
+
+                    <div class="contenedor-input">
+                        <label>
+                            Dirección Hab. <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Dirección de la tienda donde labora. <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+                  
+
+                    <input type="submit" class="button button-block" value="Registrarse">
+                   </div>
+                </form>
+            </div>
+          
+    
+            <br></br>      
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+    </div>
+
+   <script src="js/jquery.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+
+</html>
